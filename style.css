@@ -1,0 +1,60 @@
+body {
+    margin: 0px;
+}
+
+.big {
+    width: 100%;
+    height: 900px;
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+.cadre {
+    justify-self: center;
+    height: 600px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 430px;
+    background-color: rgba(255, 255, 255, .4);
+    position: relative;
+    align-items: center;
+    display: inline-block;
+}
+
+.logo {
+    padding-left: 150px;
+    padding-top: 0px;
+    width: 0px;
+    height: 0px;
+}
+
+.text {
+    padding-left: 150px;
+}
+
+.setup {
+    padding-top: 190px;
+    padding-left: 70px;
+}
+
+.pass {
+    padding-right: 50px;
+}
+
+.setup input{
+    width: 60%;
+    margin: 5px;
+    height: 45px;
+    border-radius: 15px;
+}
+
+.ok {
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: 30px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(178,34,34);
+    width: 80px;
+    border-radius: 15px;
+}
